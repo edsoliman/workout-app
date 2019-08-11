@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav-container {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo-nav-container {
+    position: absolute;
+    top: 0px;
+}
+
+nav {
+    text-align: right;
+}
+
+.workout-list-view {
+    height: 200px;
+    background: lightgray;
+}
+
+.workout-list-add {
+    height: 300px;
+    background: lightgray;
+}
+
+.app-heading {
+    text-align: center;
+}
+
+.landing-page-container {
+    width: 90%;
+    text-align: center;
+    margin: 100px auto 0 auto;
+}
+
+.calendar {
+    width: 50%;
+    height: 200px;
+    margin: 50px auto 0 auto;
+    border: 2px solid black;
+}
+
+.home-nav-container {
+    text-align: right;
+}
+
+input {
+    display: block;
+}
+
+form {
+    margin-left: 40px;
+}
+
+ul {
+    list-style: none; 
+}
+
+.contact-header {
+    text-align: center;
+}
+
+.statistics-container {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.weekly-statistics, .daily-statistics {
+    display: inline-block;
+    margin: 100px auto 0 auto;
+    width: 40%;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 150px;
+}
