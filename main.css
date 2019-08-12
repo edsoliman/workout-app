@@ -65,16 +65,16 @@ ul {
     text-align: center;
 }
 
-.statistics-container {
+.progress-container {
     width: 80%;
     display: block;
-    margin: 0 auto;
-    text-align: center;
+    margin: 50px auto 0 auto;
+    text-align: center;s
 }
 
-.weekly-statistics, .daily-statistics {
+.statistics-container {
     display: inline-block;
-    margin: 100px auto 0 auto;
+    margin: 25px auto 0 auto;
     width: 40%;
 }
 

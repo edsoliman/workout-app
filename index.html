@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">  
     <head>
-        <title>Ed's Portfolio</title>
+        <title>Work it Out</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-height, intial-scale=1">
         <link rel="stylesheet" type="text/css" href="main.css">
@@ -15,11 +15,12 @@
                 <div class="nav-container">
                     <div class="page-nav-container">
                         <nav>
-                            <button id="register_button" class="home-button" type="button">REGISTER</button>
-                            <button id="sign_in_button" class="home-button" type="button">SIGN IN</button>
+                            <button id="register_button" class="nav-button" type="button">REGISTER</button>
+                            <button id="sign_in_button" class="nav-button" type="button">SIGN IN</button>
                             <!--will have dropdown for view workouts and add workouts/created as separate button on main page here for simplicity-->
-                            <button id="workouts_button" class="home-button last" type="button">WORKOUTS</button>
-                            <button id="add_workouts_button" class="home-button last" type="button">ADD WORKOUTS</button>
+                            <button id="workouts_button" class="nav-button last" type="button">WORKOUTS</button>
+                            <button id="add_workouts_button" class="nav-button last" type="button">ADD WORKOUTS</button>
+                            <button id="progress_button" class="nav-button last" type="button">PROGRESS</button>
                         </nav>
                     </div>
                     <div class="logo-nav-container">
@@ -34,7 +35,7 @@
                 <!--Landing Page-->
                 <div class="main-container" id="main_container">
                     <div class="landing-page-container" id="landing_page_container">
-                        <div id="name_headline_container" class="name-headline-container" role="name & headline">
+                        <div id="name_headline_container" class="name-headline-container">
                             <h2>CREATE YOUR OWN CUSTOM WORKOUT PLAN</h2>
                             <p>Work it Out allows you to create and keep track of custom workout plans based on what works for you.</p>
                         </div>
@@ -58,7 +59,7 @@
                     </div>
 
                 <!--Sign Up-->
-                <div hidden class="sign-up-container" id="sign_up_container" role="sign up page"> 
+                <div hidden class="sign-up-container" id="sign_up_container"> 
                     <div class="sign-up-container" role="about">
                         <h2>Sign Up</h2>
                         <label>Create Username</label>
@@ -69,12 +70,12 @@
                         <br>
                         <input type="text">
                         <br>
-                        <button id="projects_button" class="home-button" type="button">Submit</button>
+                        <button id="signup_submit_button" class="credentials-button" type="button">Submit</button>
                     </div>
                 </div>
 
                 <!--Sign In-->
-                <div hidden class="sign-in-container" id="sign_in_container" role="sign in page"> 
+                <div hidden class="sign-in-container" id="sign_in_container"> 
                     <div class="sign-in-container" role="about">
                         <h2>Sign In</h2>
                         <label>Username</label>
@@ -85,12 +86,12 @@
                         <br>
                         <input type="text">
                         <br>
-                        <button id="projects_button" class="home-button" type="button">Submit</button>
+                        <button id="signin_submit_button" class="credentials-button" type="button">Submit</button>
                     </div>
                 </div>
 
                 <!--View Workouts-->
-                <div hidden id="view_workouts_container" class="view-workouts-container" role="view workouts page">
+                <div hidden id="view_workouts_container" class="view-workouts-container">
                     <div class="workouts-nav-container">
                         <div class="calendar">
                             *Insert monthly calendar here*
@@ -144,22 +145,21 @@
                 </div>
                     
                 <!--Progress-->
-                <div hidden class="progress-page-container" id="progress_page_container" role="progress page"> 
-                    <h1 class="contact-header">Progress</h1>
-                    <div class="statistics-container">
-                        <div class="weekly-statistics">
-                            <div class="">
+                <div hidden class="progress-page-container" id="progress_page_container"> 
+                    <div class="progress-container">
+                        <div class="statistics-container">
+                            <div class="weekly-statistics">
                                 *Will think of weekly statisics for the user*
                             </div>
-                            <div class="">
+                            <div class="weekly-statistics">
                                 *Will think of weekly statisics for the user*
                             </div>
                         </div>
-                        <div class="daily-statistics">
-                            <div class="">
+                        <div class="statistics-container">
+                            <div class="daily-statistics">
                                 *Will think of daily statisics for the user*
                             </div>
-                            <div class="">
+                            <div class="daily-statistics">
                                 *Will think of daily statisics for the user*
                             </div>
                         </div>
